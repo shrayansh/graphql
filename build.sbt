@@ -10,7 +10,6 @@ val AkkaHttpVersion = "10.2.7"
 val sangriaVersion = "2.0.0"
 val sangriaCirceVersion = "1.2.1"
 
-
 libraryDependencies ++= Seq(
   "org.sangria-graphql" %% "sangria" % sangriaVersion,
   "org.sangria-graphql" %% "sangria-slowlog" % "0.1.8",
